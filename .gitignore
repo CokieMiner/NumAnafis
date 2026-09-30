@@ -1,0 +1,15 @@
+target
+*.txt
+Cargo.lock
+.env
+*.pyc
+.vscode
+*.json
+
+# Python caches.
+__pycache__/
+
+# Precision data and temporary chart output.
+/tools/results/**/*.sqlite3
+/tools/results/**/*.sqlite3-*
+/tools/results/charts.new/
